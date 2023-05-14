@@ -15,26 +15,26 @@
 	=>	npm install @react-native-async-storage/async-storage		//for AsyncStorage
 	
   
-# navigation
+# npm for navigation
 	=>	npm install @react-navigation/native
 	=>	npx expo install react-native-screens react-native-safe-area-context
 	=>	npm install @react-navigation/native-stack
 	
   
-# For Drawer Navigator
+# npm for Drawer Navigator
 	=>	npm install @react-navigation/drawer
 	=>	npx expo install react-native-gesture-handler react-native-reanimated
 	=>	and add -->	plugins: ["react-native-reanimated/plugin"] <--  to the bable.confige.js
 
 
-# For Bottom Tab Navigator
+# npm for Bottom Tab Navigator
 	=>	npm install @react-navigation/bottom-tabs
 	=>	npm install @react-navigation/material-bottom-tabs // optinal for the above npm 
 	=>	npm install react-native-vector-icons	// to show home icon.
 	=> 	npm install react-native-vector-icons/Ionicons
 
 
-# For Node
+# npm for Node
 	=>	npm init --y
 	=>	npm i express
 	=>	npm i nodemon
