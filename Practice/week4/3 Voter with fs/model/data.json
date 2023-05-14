@@ -1,0 +1,11 @@
+[
+    {
+        "name": "thao",
+        "phone": "$2a$04$uQeRvDOAQbxcNKvt03xhKuOAY/qtVLrjG.0mXOqxyUD9FRvzPV4PG",
+        "address": "$2a$04$IndXAULqjTYqi2oHYJujvOwOkbEMCYRfX.jL3e.QWsubmSlA5ybC.",
+        "vote": {
+            "president": "Michael",
+            "vPresident": "Christine"
+        }
+    }
+]

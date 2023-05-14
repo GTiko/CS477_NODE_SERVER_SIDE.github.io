@@ -1,0 +1,20 @@
+[
+    {
+        "name": "thao",
+        "phone": "$2a$04$tNYMbaozpNF5k7E7dAkooOogdj90dgXjbHi39Y3RY1oJQ0NO8kR7W",
+        "address": "fairfield",
+        "voted": {
+            "president": "Michael",
+            "v_president": "Christine"
+        }
+    },
+    {
+        "name": "thao",
+        "phone": "$2a$04$/wznXrim7Qv5NfwN.FgzhuFJQeb5BZqww/W/hWvrkwGfZsEqe7TaK",
+        "address": "fairfield",
+        "voted": {
+            "president": "Michael",
+            "v_president": "Christine"
+        }
+    }
+]

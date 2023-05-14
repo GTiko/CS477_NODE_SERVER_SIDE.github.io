@@ -1,0 +1,18 @@
+1. What is the advantage of the modern web architecture?
+
+Modern web architecture provides advantages such as scalability, 
+flexibility, security, portability, performance, accessibility, and 
+interoperability. It allows for building web applications that can 
+handle large amounts of traffic and data, be modified quickly and easily, 
+and protect against cyber attacks. It also ensures fast response times for
+ users and accessibility for users with disabilities.
+
+
+
+2. Why do we need to use the asynchronous functions?
+
+Asynchronous functions are important because they allow non-blocking 
+I/O operations, improving the performance and responsiveness of web 
+applications. This allows the application to execute other tasks while 
+waiting for I/O operations to complete. By using asynchronous functions, 
+the code can be written in a more efficient and readable way.

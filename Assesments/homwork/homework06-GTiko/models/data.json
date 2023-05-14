@@ -1,0 +1,37 @@
+[
+    {
+        "president": "John",
+        "vice_president": "Christine",
+        "name": "thao",
+        "address": "fairfield",
+        "phone": "6411234567"
+    },
+    {
+        "president": "Michael",
+        "vice_president": "Christine",
+        "name": "baba",
+        "address": "fairfield",
+        "phone": "6411234567"
+    },
+    {
+        "president": "Christine",
+        "vice_president": "Michael",
+        "name": "mama",
+        "address": "fairfield",
+        "phone": "6411234567"
+    },
+    {
+        "president": "Nas",
+        "vice_president": "Bob",
+        "name": "Rob",
+        "address": "fairfield",
+        "phone": "6411234567"
+    },
+    {
+        "president": "Bob",
+        "vice_president": "Nas",
+        "name": "jay",
+        "address": "fairfield",
+        "phone": "6411234567"
+    }
+]

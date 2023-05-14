@@ -1,0 +1,23 @@
+[
+    {
+        "name": "thao",
+        "address": "fairfield",
+        "phone": "6411234567",
+        "president": "Michael",
+        "vice_president": "Christine"
+    },
+    {
+        "name": "bob",
+        "address": "fairfield",
+        "phone": "0123456789",
+        "president": "Michael",
+        "vice_president": "Christine"
+    },
+    {
+        "name": "nate",
+        "address": "fairfield",
+        "phone": "0987654321",
+        "president": "Nas",
+        "vice_president": "Rob"
+    }
+]

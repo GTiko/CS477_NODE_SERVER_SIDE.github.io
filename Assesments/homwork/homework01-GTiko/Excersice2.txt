@@ -1,0 +1,23 @@
+1. Explain why do we want sometimes to use setImmediate instead of using setTimeout?
+
+setImmediate schedules a function to run in the next iteration of the event loop,
+immediately after the current operation completes. whereas setTimeout schedules 
+a function to run after a certain amount of time has passed.
+
+setImmediate is that it can help improve the responsiveness of an application 
+by allowing other operations to complete before executing the delayed code. 
+This can help prevent the application from becoming unresponsive or "blocking" 
+while waiting for the delayed code to run.
+
+2. Explain the difference between process.nextTick and setImmediate?
+
+process.nextTick is used to schedule a callback function to be executed 
+immediately after the current operation completes and before the event loop 
+continues.
+
+setImmediate is used to schedule a callback function to be executed in the next 
+iteration of the event loop, after I/O events have been processed.
+
+
+3. Name 10 global modules/methods available in Node environment.
+console, setImmediate, setTimeout, export, module, process, Buffer, require, global, setInterval

@@ -1,0 +1,29 @@
+[
+    {
+    "studentId" : "610001" , 
+    "firstname" : "John", 
+    "lastname": "Smith" , 
+    "courses" :[
+        { 
+            "coursesId" : "CS303", 
+            "coursename": "Web Application Programming in JavaScript" , 
+            "semester " : "2e21-Spring" , 
+            "grade": 99 
+        }
+        ]
+    },
+
+    {
+    "studentId" : "610002" , 
+    "firstname" : "Bob", 
+    "lastname": "Nas" , 
+    "courses" :[
+        { 
+            "coursesId" : "CS304", 
+            "coursename": "async" , 
+            "semester " : "2e21-Spring" , 
+            "grade": 99 
+        }
+        ]
+    }
+]

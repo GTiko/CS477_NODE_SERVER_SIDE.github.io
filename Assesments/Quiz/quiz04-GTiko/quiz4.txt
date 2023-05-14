@@ -1,0 +1,32 @@
+1. Why we need to have a module?
+
+Modules help organize code into reusable, self-contained units, making it easier to manage and maintain large programs. 
+They also provide namespace isolation, preventing naming conflicts between different parts of the program.
+
+2. How to create NodeJS module using CommonJS?
+
+    first Create a new JavaScript file within your module directory. This file will contain the code of function or class for your module.
+    then Export the functionality of your module using the module.exports object.
+    after that we can use it in other NodeJS modules by requiring it using the require function. 
+
+    example: 
+    calc.js
+        let sum = function(a+b){return a+B}
+        module.exports = sum
+
+    index.js
+        let result = require("./filename")
+        console.log(result(2,3))//5
+
+3. How does requiring a module work?
+
+    Requiring a module loads its code into memory and makes its functionality available for use in the current program. 
+    It is done through the require() function in JavaScript.
+
+    1. Resolve: to find the absolute path of the file
+    2. Load: to determine the type of the file content
+    3. Wrap: to give the file its private scope
+    4. Evaluate: This is what the VM does with the loaded code
+    5. Cache: when we require this file again, don’t go over all the steps.
+
+
