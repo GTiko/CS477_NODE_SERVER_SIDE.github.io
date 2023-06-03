@@ -1,0 +1,17 @@
+{
+  "name": "homework05-gtiko",
+  "version": "1.0.0",
+  "description": "[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=10457084)\r # CS477-2023-03-Homework05\r 1. Create a server using Express to manage books. A book has properties: id, title, ISBN, publishedDate, author.\r 2. Implement a server listening on port 3000\r 3. Implement POST `http://localhost:3000/books` with the body \r `\r {\r     \"title\": \"NodeJS programming\",\r     \"ISBN\": \"9783161484100\",\r     \"publishedDate\": \"Jan 1, 2022\",\r     \"author\": \"Thao Vu\"\r }\r `\r * You should generate the id for a new book\r * Implement the middleware for this POST request to ensure the ISBN is a string of 13 digits.\r * Save all books in the file 'book.json' and load that file when starting the server\r 4. Implement GET `http://localhost:3000/books`, which returns all books\r 5. Implement PUT `http://localhost:3000/books/{id}` with the body\r {\r     \"title\": \"Server-side programming\"\r }\r * This request will trigger updating the title of the book with id\r 6. Implement DELETE `http://localhost:3000/books/{id}`, which delete the book with id\r 7. Implement GET `http://localhost:3000/books/{id}`, which returns the book with id\r 8. (Optional) Upload a transcript of a book as a file while creating or updating. Save the file in Server and share that location publicly to clients.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  }
+}

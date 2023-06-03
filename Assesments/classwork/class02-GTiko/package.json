@@ -1,0 +1,17 @@
+{
+  "name": "assignment02-gtiko",
+  "version": "1.0.0",
+  "description": "1. Create an http server using express on port 3000\r 2. Assume that the client sends to this server a POST \"/numbers\"  with the body like the below:\r {\r   \"numbers\": [1, 2, 3, 4] \r }\r Create a middleware to ensure this server only accept the body with numbers as an array of ascending positive integer.\r 3. Assume that the client sends to this server a POST \"/strings\"  with the body like the below:\r {\r   \"upper\": \"ABC\",\r   \"lower\": \"abc\"\r }\r Upper: The value is a string with all capital letters\r Lower: the value is a string with all lower cases\r Create a middleware to ensure this server only accept the above body.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  }
+}
