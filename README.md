@@ -55,3 +55,6 @@
 	})
 	
 	main().then(testDB).catch((err) => console.log(err));
+	function testDB(){
+    		console.log("DB connected")
+	}
