@@ -42,19 +42,20 @@
 	=> 	npm i cors	//	app.use(cors());
 	
 # mongoDb Database connection function
-	let client = new MongoClient("mongodb://127.0.0.1:27017");
+	const client = new MongoClient("mongodb://127.0.0.1:27017");
 	let db = null;
-	async function main() {
-	  await client.connect();
-	  db = client.db("myapp");
-	}
+
+	(async function connectDB() {
+	    try {
+		await client.connect();
+		db = client.db("RestaurantManagement");
+		console.log("DB connected...");
+	    } catch (error) {
+		console.log("DB connection error...");
+	    }
+	})()
 
 	app.use((req, res, next)=>{
 	  req.db = db;
 	  next();
 	})
-	
-	main().then(testDB).catch((err) => console.log(err));
-	function testDB(){
-    		console.log("DB connected")
-	}
