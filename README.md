@@ -53,3 +53,5 @@
 	  req.db = db;
 	  next();
 	})
+	
+	main().then(testDB).catch((err) => console.log(err));
