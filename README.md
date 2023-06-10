@@ -40,4 +40,16 @@
 	=>	npm i nodemon
 	=>	npm i mongodb
 	=> 	npm i cors	//	app.use(cors());
+	
+# mongoDb Database connection function
+	let client = new MongoClient("mongodb://127.0.0.1:27017");
+	let db = null;
+	async function main() {
+	  await client.connect();
+	  db = client.db("myapp");
+	}
 
+	app.use((req, res, next)=>{
+	  req.db = db;
+	  next();
+	})
